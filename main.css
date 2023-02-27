@@ -1,0 +1,57 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.right-nav{
+    /* display: inline-block; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.search-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+} */
+.round {
+    width: 100%;
+    border-radius: 15px;
+    border: 1px #000 solid;
+    padding: 5px 5px 5px 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.corner {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    height: 20px;
+    width: 20px;
+    z-index: 10;
+    border-radius: 10px;
+    border: none;
+    background: #000; /* Set the bg image here. with "no-repeat" */
+}
+
+.search {
+    position: relative;
+    max-width: 550px;
+    /* width: 190px; */
+    height: 30px;
+}
